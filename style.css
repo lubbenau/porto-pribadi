@@ -1,16 +1,15 @@
-/* appling google font over the website  */
 body{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
 }
-/* styling menu icon */
+
 .nav-menu{
   border: none;
   background-color: #fff;
   font-size: 1.5rem;
   color: #fca61f;
 }
-/* styling navbar links  */
+
 .navbar-nav a{
   color: black;
   position: relative;
@@ -35,14 +34,14 @@ body{
   width: 100%; 
   left: 0; 
 }
-/* styling contact btn  */
+
 .c-btn{
   border: none;
   background: #fca61f;
   color: #fff;
   font-size: 1.2rem;
 }
-/* styling home section starts */
+
 .home{
   background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
   padding: 30px 0px 10px 0px;
@@ -93,7 +92,7 @@ body{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-/* adding animation to home section image  */
+
 .home img{
   animation: floatimg 4s ease-in-out infinite;
 }
@@ -110,7 +109,7 @@ body{
   }
 }
 
-/* expertise section starts */
+
 .heading small{
   color: #6f34fe;
   font-size: 1.5rem;
@@ -139,7 +138,7 @@ body{
   border-radius: 0.7rem;
 }
 
-/* skill section starts */
+
 .skill{
   background-color: rgb(234, 234, 249);
 }
@@ -196,7 +195,7 @@ body{
   font-size: 1.3rem;
 }
 
-/* portfolio section starts */
+
 #myBtnContainer{
   margin-bottom: 45px;
 }
@@ -225,7 +224,7 @@ margin: 0 25px;
   border: none;
 }
 
-/* testimonial section starts */
+
 .testimonial img:hover{
   transform: scale(1.2,1.2);
   transition-duration: 1s;
@@ -253,7 +252,7 @@ margin: 0 25px;
   transition-duration: 1s;
 }
 
-/* blog section starts */
+
 .blog{
   background-color: #f2f2ff;
 }
@@ -286,7 +285,7 @@ margin: 0 25px;
 .blog .blogpost .read-more-btn:hover{
   color: #6f34fe;
 }
-/* styling modal group  */
+
 .btn-c{
   margin-left: 94%;
   background-color: transparent;
@@ -305,7 +304,7 @@ margin: 0 25px;
   font-size: 1rem;
   color: #6f34fe;
 }
-/* contact section starts */
+
 .contact{
   background-color: #f3f3f3;
 }
@@ -326,7 +325,7 @@ margin: 0 25px;
   width: 80%;
 }
 
-/* footer section starts */
+
 footer{
   background-color: #211e39;
 }
@@ -373,7 +372,7 @@ footer .link-group a:hover{
   background-color: #255afc;
 }
 
-/* styling back to top button */
+
 #btn-back-to-top {
   position: fixed;
   bottom: 40px;
